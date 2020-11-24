@@ -1,0 +1,47 @@
+* {
+  border: dashed 1px red;
+}
+
+body {
+  margin: 0;
+  background: #3030C1;
+}
+
+.wrapper {
+  width: 81%;
+  margin: auto;
+}
+
+.header {
+  padding-bottom: 80px;
+}
+
+.header__logo {
+  padding-top: 60px;
+}
+
+.firstsection {
+  background-color: #3030C1;
+  background-image: url('img/JPG1.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding-bottom: 200px;
+}
+.firstsection__title {
+  width: 55%;
+  margin: 0 0 32px 0;
+  padding-top: 54px;
+  font: 800 45px/55px gilroy;
+  color: #FFF;
+}
+.firstsection__title2 {
+  font: 800 30px/36px gilroy;
+  color: #FFCC33;
+  margin: 0 0 10px 0;
+  width: 30%;
+}
+.firstsection__text {
+  font 300 20px/23px gilroy;
+  color: #FFF;
+  width: 35%;
+}
