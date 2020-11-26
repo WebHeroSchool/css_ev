@@ -4,8 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-	<link href="https://fontstorage.com/ru/font/radomir-tinkov/gilroy" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="fonts.css">
+   <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/fonts.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Business card website</title>
 </head>
@@ -27,33 +29,39 @@
 		<section>
 			<div class="secondsection">
 			<h1 class="secondsection__title">Вот что я планирую</h1>
-				<div class="secondsection__icon">
-					<img class="secondsection__icon-img" src="img/JPG2.svg" alt="#">
-				<h2 class="secondsection__title2">Окончить курсы в WebHero School</h2>
-				<p class="secondsection__text">Стать профессионалом своего дела</p>
+				<div class="secondsection__block">
+				<div class="secondsection__block-icon">
+					<img class="secondsection__block-img" src="img/JPG2.svg" alt="#">
+				<h2 class="secondsection__block-title2">Окончить курсы в&nbsp;WebHero School</h2>
+				<h3 class="secondsection__block-text">Стать профессионалом своего&nbsp;дела</h3>
 			</div>
-			<div class="secondsection__icon">
-				<img src="img/JPG3.svg" alt="#">
-				<h2 class="secondsection__title2">Устроиться на работу своей мечты</h2>
-				<p class="secondsection__text">Приходить на любимую работу с большой радостью </p>
+			<div class="secondsection__block-icon">
+				<img class="secondsection__block-img" src="img/JPG3.svg" alt="#">
+				<h2 class="secondsection__block-title2">Устроиться на работу своей мечты</h2>
+				<h3 class="secondsection__block-text">Приходить на любимую работу&nbsp;с большой радостью </h3>
 			</div>
-			<div class="secondsection__icon">
-				<img class="secondsection__icon-img" src="img/JPG4.svg" alt="#">
-				<h2 class="secondsection__title2">Заработать свои первые деньги</h2>
-				<p class="secondsection__text">Зарабатывать от 120 000 рублей в месяц</p>
+			<div class="secondsection__block-icon">
+				<img class="secondsection__block-img" src="img/JPG4.svg" alt="#">
+				<h2 class="secondsection__block-title2">Заработать свои первые&nbsp;деньги</h2>
+				<h3 class="secondsection__block-text">Зарабатывать от 120 000 рублей в месяц</h3>
 			</div>
+		</div>
 			<h1 class="secondsection__title">И это только начало!</h1>
-			<p class="secondsection__text-mid">Я буду расти в области веб-разработки с каждым годом. Мои навыки и заработная плата будут расти вместе со мной. А сегодня я уже могу сверстать самостоятельно свой первый landing. </p>
+			<p class="secondsection__text">Я буду расти в области веб-разработки с каждым годом. <br> Мои навыки и заработная плата будут расти вместе со мной. <br> А сегодня я уже могу сверстать самостоятельно свой первый landing. </p>
 		</div>
 		</section>
 		<section>
 			<div class="thirdsection">
 			<h1 class="thirdsection__title">Ты тоже можешь изменить свою профессию</h1>
 			<form class="thirdsection__form">
-				<input class="thirdsection__input" type="text" name="Введи свое имя">
-				<input class="thirdsection__input" type="text" name="Введи свою электронную почту">
+				<input class="thirdsection__input" type="text" placeholder="Введи свое имя">
+				</form>
+				<form class="thirdsection__form">
+				<input class="thirdsection__input" type="text" placeholder="Введи свою электронную почту">
 			</form>
-			<a class="thirdsection__button" href="#">Оставь заявку</a>
+			<div class="thirdsection__button">
+				<a class="thirdsection__button-btn" href="#">Оставь заявку</a>
+			</div>
 			</div>
 		</section>
 		<footer class="footer">
