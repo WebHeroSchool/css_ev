@@ -1,0 +1,146 @@
+@media (max-width: 375px) {
+  .header {
+    padding: 0 0 0 30px;
+  }
+  .header__logo {
+    padding-top: 40px;
+    width: 93px;
+    height: 24px;
+  }
+  .firstsection {
+    padding: 0 0 210px 30px;
+    background-position: bottom;
+    background-size: 80%;
+  }
+  .firstsection__title {
+    font-size: 25px;
+    line-height: 31px;
+    padding-top: 47px;
+    width: 100%;
+    padding-right: 90px;
+    margin: 0;
+  }
+  .firstsection__title-small {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+    width: 100%;
+    padding-top: 25px;
+  }
+  .firstsection__text {
+    width: 100%;
+    font-size: 15px;
+    line-height: 17px;
+    padding-right: 50px;
+  }
+  .firstsection__button {
+    display: none;
+  }
+  .secondsection__title {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 100px;
+  }
+  .secondsection__block {
+    flex-direction: column;
+  }
+  .secondsection__block-icon {
+    width: 100%;
+    height: 273px;
+    margin-bottom: 20px;
+  }
+  .secondsection__block-img {
+    padding-top: 45px;
+    max-width: 95px;
+    position: absolute;
+    left: 115px;
+  }
+    .secondsection__block-titlesmall {
+      padding: 145px 1px 0 0;
+    }
+  .secondsection__block-titlesmall,
+  .secondsection__block-titlesmallA,
+  .secondsection__block-titlesmallB {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .secondsection__block-text,
+  .secondsection__block-textA,
+  .secondsection__block-textB {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .secondsection__block-text {
+    padding-bottom: 38px;
+    padding-right: 50px;
+  }
+    .secondsection__block-imgA {
+    padding-top: 43px;
+    max-width: 90px;
+    position: absolute;
+    left: 115px;
+  }
+    .secondsection__block-titlesmallA {
+      padding: 143px 1px 0 0;
+    }
+    .secondsection__block-textA {
+    padding: 0 60px 36px 60px;
+  }
+    .secondsection__block-imgB {
+    padding-top: 47px;
+    max-width: 100px;
+    position: absolute;
+    left: 102px;
+  }
+    .secondsection__block-titlesmallB {
+      padding: 145px 1px 0 0;
+    }
+    .secondsection__block-textB {
+    padding: 17px 65px 40px 60px;
+  }
+    .secondsection__title-one {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 40px;
+  }
+  .secondsection__text {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 10px 10px 10px;
+  }
+  .thirdsection {
+    padding-top: 20px;
+    padding-bottom: 44px;
+  }
+  .thirdsection__title {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 0 25px 0;
+  }
+  .thirdsection__input {
+    width: 260px;
+    padding: 16px 90px 13px 17px;
+    margin: 0 10px 13px 10px;
+    }
+  input::placeholder {
+  font-size: 10px;
+  line-height: 12px;
+  }
+  .thirdsection__button {
+  padding-top: 18px;
+  width: 260px;
+}
+  .thirdsection__button-btn {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 15px 85px;
+  }
+  .footer {
+    padding-bottom: 20px;
+  }
+  .footer__text {
+  padding-top: 24px;
+  padding-left: 2px;
+  font: 400 10px/13px Roboto;
+  }
+}
