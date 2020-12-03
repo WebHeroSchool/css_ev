@@ -8,8 +8,8 @@
     height: 24px;
   }
   .firstsection {
-    padding: 0 0 210px 30px;
-    background-position: bottom;
+    padding: 0 0 260px 30px;
+    background-position: 30px 295px;
     background-size: 80%;
   }
   .firstsection__title {
@@ -17,7 +17,7 @@
     line-height: 31px;
     padding-top: 47px;
     width: 100%;
-    padding-right: 90px;
+    padding-right: 40px;
     margin: 0;
   }
   .firstsection__title-small {
@@ -39,7 +39,7 @@
   .secondsection__title {
     font-size: 20px;
     line-height: 25px;
-    padding-top: 100px;
+    padding-top: 50px;
   }
   .secondsection__block {
     flex-direction: column;

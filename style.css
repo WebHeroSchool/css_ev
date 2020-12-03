@@ -151,7 +151,7 @@ img {
   padding-left: 20px;
 }
 .thirdsection {
-  padding: 47px 9% 50px 9%;
+  padding: 47px 9% 72px 9%;
   background: #F0FBFF;
 }
 .thirdsection__title {
@@ -192,11 +192,11 @@ input::placeholder {
 }
 .footer {
   background: #00008B;
-  padding: 0 9% 70px 9%;
+  padding: 0 9% 50px 9%;
 }
 .footer__text {
   font: 400 14px/17px Roboto;
   color: #FFFFFF;
-  padding-top: 73px;
+  padding-top: 53px;
   margin: 0;
 }
